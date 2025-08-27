@@ -211,3 +211,6 @@ data/*
 
 # BUT allow zonal_stats.csv
 !data/ntl/rw-adm4-ntl-stats.csv
+
+# ignoring environment
+myenv
