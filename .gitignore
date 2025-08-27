@@ -207,12 +207,12 @@ marimo/_lsp/
 __marimo__/
 
 
-# # ignore everything inside data/
-# data/*   
-# # un-ignore the folder path so Git can see inside        
-# !data/ntl/      
-# # allow this one file  
-# !data/ntl/rw-adm4-ntl-stats.csv   
+# Ignore everything in data/
+data/*
+
+# Except this one CSV file
+!data/ntl/rw-adm4-ntl-stats.csv
+
 
 
 # # ignoring environment
