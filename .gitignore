@@ -207,4 +207,7 @@ marimo/_lsp/
 __marimo__/
 
 # datafiles
-data/
+data/*
+
+# BUT allow zonal_stats.csv
+!data/ntl/rw-adm4-ntl-stats.csv
